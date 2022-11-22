@@ -58,9 +58,9 @@ def click_like(driver):
 
 
 def main():
-    useName = 'tully_bot'
-    Password = 'aQ!1234'
-    userToLiked = 'naftali2055'
+    useName = '<your userName>'
+    Password = '<your password>'
+    userToLiked = '<userName to liked>'
     chrom_options = webdriver.ChromeOptions()
     prefs = {"credentials_enable_service": False, "profile.password_manager_enabled": False}
     chrom_options.add_experimental_option("prefs", prefs)
